@@ -1,4 +1,4 @@
-# Simple Stock Price App
+# NVIDIA Stock Price App
 
 This is a simple stock price app developed with Python and Streamlit. The purpose of this app is to provide users with insights into the historical performance of NVIDIA stock and to offer recommendations on whether to buy the stock today or wait for a better opportunity based on the trend.
 
@@ -27,6 +27,14 @@ The recommendation provided by the app is based on the following logic:
 - If the current closing price is higher than the 50-day moving average, which is higher than the 200-day moving average, the recommendation is to **buy your stock today**.
 - If the 50-day moving average is higher than the 200-day moving average, the recommendation is to **wait for a dip, then buy**. The app also predicts when to check back for a potential buying opportunity, typically after 7 days.
 - If the trend is not clear (i.e., the 200-day moving average is higher than the 50-day moving average), the recommendation is to **wait for a clearer trend**. The app predicts when to check back for a clearer trend, typically after 2 weeks.
+
+## Project Video Walkthrough
+
+Here's a walkthrough of implemented features:
+
+<img src='./assets/nvidiastockprice.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](https://www.cockos.com/licecap/) for Windows
 
 ## License
 
