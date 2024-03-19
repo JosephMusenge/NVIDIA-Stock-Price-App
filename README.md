@@ -44,4 +44,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - This app utilizes the [yfinance](https://github.com/ranaroussi/yfinance) library for fetching historical stock data.
 - Streamlit is used for building the interactive web application.
-- Special thanks to the developers and maintainers of the libraries and tools used in this project.
